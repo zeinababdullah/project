@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+/*-------------------------------------------------navbar section---------------------------------------------------------*/
+#Nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right ,#4a8bd4 , #041e3d);
+    padding: 0 !important;
+}
+.navbar-brand img{
+    padding-left: 25px;
+    width: 30%;
+} 
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: whitesmoke !important;
+    font-weight: 600;
+    /*float: right;*/
+    text-align: left;
+}
+.fa-bars{
+    color: whitesmoke !important;
+    font-size: 30px;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+/*-------------------------------------------banner section--------------------------------------------------*/
+#banner{
+    background-image: linear-gradient(to right ,#4a8bd4 , #041e3d);
+    color: whitesmoke;
+    padding-top: 5%;
+    height: 450px;
+    margin-bottom: 200px;
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 60px;
+}
+.fa-play-circle{
+    color: rgb(26, 26, 148);
+    padding-right:10px;
+    padding-left:  10px;
+    padding-top: 30px;
+}
+#banner a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+.svg-bottom{
+    width: 100%;
+}
+/*-------------------------------------------services section--------------------------------------------------*/
+#services{
+    padding:80px 0;
+}
+.services-image{
+    width: 180px;
+    margin-top: 20px;
+}
+.services{
+    padding: 20px;
+}
+.services h4{
+    padding:5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.title::before{
+    content: '';
+    background-color: rgb(24, 45, 168);
+    height: 4px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after{
+    content: '';
+    background-color: rgb(24, 45, 168);
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+#services .btn-primary{
+    text-shadow: none;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right ,#4a8bd4 , #041e3d);
+}
+#services .btn-primary:hover{
+    transition: 0.5s;
+    transform: translateY(-10px);
+    opacity: 0.7;
+}
+/*----------------------------------------------ABOUT US SECTION--------------------------------------------------------------*/
+#about-us{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f8f9fa;
+}
+.about-title{
+    font-size: 38px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+#about-us ul li{
+    margin: 10px 0;
+}
+#about-us ul{
+    margin-left: 20px;
+}
+/*-------------------------------------------TESTIMONIALS section--------------------------------------------------*/
+#testimonials{
+    margin: 80px 0;
+}
+.testimonials{
+    border-left: 4px solid #0d478f;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonials img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+}
+/*-------------------------------------------SOCIAL MEDIA section--------------------------------------------------*/
+#social-media{
+    background-color: #f8f9fa;
+}
+#social-media p{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.social-icons{
+    width: 50%;
+}
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+    transition: 0.5s;
+    transform: translateY(-10px);
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-instagram {
+    background: #e91992;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-whatsapp {
+    background: #19b83b;
+    color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-tumblr {
+    background: #2c4762;
+    color: white;
+}
+/*-------------------------------------------FOOTER section--------------------------------------------------*/
+#footer{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+}
+.footer-box{
+    margin-top: -100px;
+}
+.footer-box img{
+    width: 120px;
+}
+.footer-box .fa{
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 7px;
+    border-radius: 6px;
+    background-image: linear-gradient(to right ,#4a8bd4 , #041e3d);
+}
+.footer-box .fa:hover{
+    opacity: 0.7;
+}
+#addig-binner{
+    background-image: linear-gradient(to right ,#4a8bd4 , #041e3d);
+    color: whitesmoke;
+    padding-top: 5%;
+    height: 275px;
+}
+#addig-binner .btn-primary{
+    text-shadow: none;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right ,#4a8bd4 , #041e3d);
+    margin-top: 15px;
+}
+#addig-binner .btn-primary:hover{
+    opacity: 0.7s;
+}
+hr{
+    background-color: whitesmoke;
+}
+.copy-write{
+    font-size: x-small;
+    font-weight: bold;
+}
+
+/*---------------------------------------------MEDIA QUERY-------------------------------------------*/
+/* smart phone and tablet */
+@media(max-width: 767px){
+    #banner{
+        margin-top: -70px;
+        height: 550px;
+        margin-bottom: 30px;
+    }
+    .promo-title{
+        margin-top: 50px;
+    }
+    #banner p{
+        font-size: 15px;
+    }
+    .fa-play-circle{
+        padding-top: 0px;
+        margin-top: -10px;
+        margin-bottom: 50px;
+    }
+    #banner a{
+        font-weight: 400;
+        font-size: 20px;
+    }
+    #banner .img-fluid{
+        max-width: 60%;
+    }
+    #about-us .img-fluid{
+        max-width: 80%;
+        padding-top: 25px;
+        padding-left: 60px;
+        margin-bottom: -10px;
+    }
+    #social-media p{
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .social-icons{
+        width: 100%;
+    }
+    .fa {
+        padding: 10px;
+        font-size: 20px;
+    }
+    #footer #addig-binner{
+        padding-top: 5%;
+        height: 390px;
+    }
+    .footer-box{
+        margin-top: -80px;
+    }
+    .footer-box img{
+        display: none;
+    }
+    .footer-box  .footerp{
+        display: none;
+    }
+    #footer p{
+        margin-top: 20px;
+    }
+    #footer .footerpp{
+        font-size: small;
+        padding: 0px;
+        margin: 5px;
+    }
+    .footer-box .fa{
+        font-size: 20px;
+        height: 30px;
+        width: 35px;
+        padding: 5px;
+        border-radius: 6px;
+    }
+    .footer-box .footerppp{
+        padding-top: 90px;
+    }
+}
+
+/* small screen */
+@media(min-width: 767px)and(max-width: 991px){
+
+}
+
+/* meduim screen */
+@media(min-width: 929px)and(max-width: 1199px){
+    
+}
+
+/* large screen */
+@media(min-width: 1200px){
+
+}
